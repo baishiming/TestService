@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".DemoActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -24,6 +24,26 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:text="stopService"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bindService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bindService"/>
+
+
+        <Button
+            android:id="@+id/unbindService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="unbindService"/>
 
     </RelativeLayout>
 
